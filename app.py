@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 
 
 app = Flask(__name__)
@@ -11,5 +11,5 @@ def index():
 
 
 
-
-if __name__ == '__main__': app.run(debug=True)
+if __name__ == '__main__':
+    app.run(use_reloader = True,debug=True)
