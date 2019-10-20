@@ -9,6 +9,11 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/arancio_andata')
+def index_arancia_andata():
+    return render_template('arancio_andata.html')
+
+
 
 
 if __name__ == '__main__':

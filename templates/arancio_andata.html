@@ -24,35 +24,27 @@
         <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-
     <body>
-        <div class="row1">
-            <img src="/static/Eni.jpg"  height="60" align="left"/>
-            <img class="img_moto" src="/static/MOTO.jpg" width="60" align="right"/>
-            <h1 class="gfg1"> M.O.T.O. </h1>
-            <br><h3 class="gfg2">Move On Time On-demand</h3>
-        </div>
-        <div class="row2">
-            <p>Keep in Mind the badge</p><br>
-        </div>
-
-        <div class="navbar">
-            <div class="dropdown">
-                <button class="dropbtn">Linea Arancio
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="https://navetta.herokuapp.com/arancio_andata"><b>C:</b>Bolgiano</a>
-                    <a href="https://navetta.herokuapp.com/arancio_ritorno"><b>C:</b>Stazione F.F.S.S.</a>
-                </div>
+        <p></p>
+        <center>
+            <h1 class="img_moto1">
+                <img src="/static/MOTO.jpg" width="180" />
+            </h1>
+            <div class="row3">
+                <br><a class="a1" href="https://navetta.herokuapp.com/arancio_andata/Ar_Stazione">
+                        Stazione F.F.S.S.
+                </a>
+                <a class="a2" href="https://navetta.herokuapp.com/arancio_andata/Ar_Emilia">
+                    Via Emilia (5°Pu)
+                </a>
+                <a class="a3" href="https://navetta.herokuapp.com/arancio_andata/Ar_Agadir">
+                    Via Agadir (EniServizi)
+                </a>
+                <a class="a4" href="https://navetta.herokuapp.com/arancio_andata/Ar_Bolgiano">
+                    Via Maritano (Lab. Bolgiano)
+                </a>
             </div>
-        </div>
-
-    <img class="img_mappa" src="/static/mappa_metro.png"/>
+        </center>
     </body>
-
-
-
-
-
+    <!--developer Paolino Iorio-->
 </html>
